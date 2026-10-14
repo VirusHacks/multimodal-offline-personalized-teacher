@@ -188,6 +188,8 @@ assets/*.mp4
 assets/*.mov
 assets/*.webm
 !assets/.gitkeep
+!assets/saathi-system-architecture.png
+!assets/saathi-agents-execution-pipeline.png
 
 # ============================================================================
 # DATABASE & BACKUP FILES
