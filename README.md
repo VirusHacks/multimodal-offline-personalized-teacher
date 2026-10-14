@@ -129,11 +129,13 @@ These jobs run in parallel where possible. This makes the tutor faster, gives st
 
 ## Results
 
+We are building our evaluation set now. We do not publish made-up scores. The current prototype is designed to answer from uploaded sources, show where an answer came from, and refuse unsupported claims.
+
 | Test | Result |
 |---|---|
-| 30-question test set | Faithfulness **[X]**, Answer relevancy **[X]**, Context precision **[X]**, Context recall **[X]** |
-| 10 simulated students, multiple sessions | Mastery gain **[X]%**, repeated questions **[X]%** |
-| CPU speed (**[hardware]**) | About **[X] s** per answer |
+| Grounded answers | Source links and refusal behavior are built into the answer flow |
+| Personalized learning | Tracks topics, mistakes, and quiz history; long-term improvement is not measured yet |
+| CPU performance | Depends on the selected local model and computer; offline mode is designed to run without a GPU |
 
 ---
 
@@ -144,7 +146,7 @@ These jobs run in parallel where possible. This makes the tutor faster, gives st
 - **Languages:** 18 Indian languages offline, Bhashini online
 - **Retrieval:** **[vector store]**
 - **App:** **[frontend / backend]**
-- **Evaluation:** **[RAGAS / DeepEval / other]**
+- **Evaluation:** Evaluation set in progress; source grounding and refusal behavior are part of the design
 
 ---
 
