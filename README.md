@@ -212,8 +212,3 @@ The online keys enable web research, YouTube learning videos, and Indian-languag
 - More subjects and more local languages
 - Lighter models for very old computers
 
----
-
-## License
-
-[MIT or your license]

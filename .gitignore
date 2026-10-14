@@ -214,3 +214,6 @@ electron/out/
 *.rpm
 *.AppImage
 *.snap
+
+Devpost.md
+transcript.txt
